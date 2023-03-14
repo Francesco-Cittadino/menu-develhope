@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alessandro Ambra">
+    <meta name="description" content="Primi piatti del menù">
+    <title>Primi piatti</title>
+</head>
+<body>
+    <main>
+        <!-- intro e descrizione ristorante  -->
+        <section>
+            <h1>Venite a provare le specialità del nostro ristorante, non rimarrete delusi:</h1>
+            <p>Qui  a Develhope siamo come una grande famiglia, vogliamo trasmettere ai 
+                nostri clienti la bellezza delle nostre tradizioni e i sapori che più ci contraddistinguono.</p>
+        </section>
+        <!-- descrizione sepcialità della settimana -->
+        <section>
+            <label for="first_dishes"> <b>Le specialità della settimana:</b></label>
+            <ul aria-labelledby="first_dishes">
+                <li>Bucatini all'amatriciana</li>
+                <li>Spaghetti allo scoglio</li>
+                <li>Paccheri tartufo e ragù di cinghiale</li>
+            </ul>
+        </section>
+        <!-- primi classici  -->
+        <section>
+            <label for="classic_dishes"><b>Se non siete soddisfatti, potete sempre provare i piatti classici:</b></label>
+            <ul aria-labelledby="classic_dishes">
+                <li>Cannelloni ricotta e spinaci</li>
+                <li>Risotto alla milanese</li>
+                <li>Spaghetti A.O.P (aglio, olio e peperoncino) </li>
+            </ul>
+        </section>
+        <!-- consigli dello chef  -->
+        <section>
+            <label for="chef_choise"><b>Se ancora non riuscite a scegliere, fidatevi del nostro chef:</b></label>
+            <ul aria-labelledby="chef_choise">
+                <li>Penne alla vodka</li>
+                <li>Fettuccine "Alfredo"</li>
+                <li>Risotto allo zafferano</li>
+            </ul>
+        </section>
+        <!-- rating e info  -->
+        <footer>
+            <b>Se l'esperienza è stata di tuo gradimento, ti chiediamo di lasciarci un voto dall'1 al 5</b>
+            <form>
+                <label for="rating">Quanto ti è piaciuto da 1 a 5?</label>
+                <input type="number" name="rating" id="rating" min="0" max="5" step="1" list="rate">
+                <datalist id="rate">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                </datalist>
+            </form>
+        </footer>
+    </main>
+</body>
+</html>
