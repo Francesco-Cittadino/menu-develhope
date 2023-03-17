@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-
 RISTODEVELOP
 
+
+primipiatti
 
 Le specialità della settimana:
 - Bucatini all'amatriciana;
@@ -17,11 +17,11 @@ Le scelte dello chef:
 - Penne alla vodka ;
 - Fettuccine "Alfredo" ;
 - Risotto allo zafferano ;
->>>>>>> feature-primipiatti
 
-=======
+secondo-piatto
+
 Formaggio vegano con pomodori secchi.
->>>>>>> secondo-piatto
+
 
 contorni
 
